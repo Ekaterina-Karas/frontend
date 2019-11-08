@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <script src="basket.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id='container' class='Container'>
+    <h1>Товары</h1>
+    <div class='Items'>
+        <div class='item' id='01' onclick> <img src='img/small/img_1.jpg' width="150" height="90">
+            <br>
+            <p class='price' id='1'>1000</p>
+            <button class='item_button'>Купить</button>
+            <button class='del_button'>Удалить</button>
+        </div>
+        <div class='item' id='02' onclick> <img src='img/small/img_2.jpg' width="150" height="90">
+            <br>
+            <p class='price' id='2'>2000</p>
+            <button class='item_button'>Купить</button>
+            <button class='del_button'>Удалить</button>
+        </div>
+        <div class='item' id='03'> <img src='img/small/img_3.jpg' width="150" height="90" onclick>
+            <br>
+            <p class='price' id='3'>3000</p>
+            <button class='item_button'>Купить</button>
+            <button class='del_button'>Удалить</button>
+        </div>
+        <div class='item' id='04'> <img src='img/small/img_4.jpg' width="150" height="90" onclick>
+            <br>
+            <p class='price' id='4'>4000</p>
+            <button class='item_button'>Купить</button>
+            <button class='del_button'>Удалить</button>
+        </div>
+        <div class='item' id='05'> <img src='img/small/img.jpg' onclick width="150" height="90">
+            <br>
+            <p class='price' id='5'>5000</p>
+            <button class='item_button'>Купить</button>
+            <button class='del_button'>Удалить</button>
+        </div>
+    </div>
+    <div class='RecycleContentFields'>
+        <h1>Товары в корзине</h1>
+        <div class='recycleContent'> <address></address> </div>
+        <div class='infoblock'>
+            <p class='summ'>Итоговая сумма</p>
+            <button id='clear'>Очистить корзину</button>
+        </div>
+        <br>
+        <div id='recycle' onclick>
+            <div id='infotext'>Корзина пустая</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

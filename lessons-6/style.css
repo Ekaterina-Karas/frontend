@@ -1,0 +1,118 @@
+button {
+  font-family: sans-serif;
+  display: block;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+  text-decoration: none;
+  background-color: crimson;
+  width: 132px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: purple;
+  background-color: white;
+}
+
+p {
+  color: #010101;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+.item p {
+  color: rebeccapurple;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid purple;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: White;
+  height: 100%;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  height: 2000px;
+}
+
+.summ {
+  font-family: sans-serif;
+  color: #010101;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  width: 300px;
+  height: 100px
+}
+
+.Recycle {
+  margin-left: 0 auto;
+}
+
+.Recycle h1 {
+  padding-left: 200px;
+}
+
+#recycle {
+  width: auto;
+  height: auto;
+  border: 2px solid red;
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recycle .item_button {
+  display: none;
+}
+
+.del_button {
+  display: none;
+}
+
+#recycle .del_button {
+  display: block;
+}
+
+.Items {
+  width: auto;
+  display: flex;
+  padding: 5%;
+  height: 454px;
+  justify-content: space-between;
+}
+
+#recycleButton {
+  float: right;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49.542px;
+  text-align: center;
+}
+
+.infoblock {
+    float: right;}
